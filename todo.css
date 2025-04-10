@@ -1,0 +1,21 @@
+.i1 {
+    display: flex;
+    justify-content: center;
+}
+
+.i1 input {
+    box-shadow: 0 0 10px 0 black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+section textarea {
+    resize:unset;
+    width: 700px;
+    height: auto;
+    overflow: hidden;
+}
