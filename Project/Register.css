@@ -1,0 +1,45 @@
+body {
+    background-image: url(loginpage.png);
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.Create-User {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: #4c4b48;
+    border-radius: 15px;
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 0 15px black;
+}
+
+.Create-User p {
+    color: white;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Create-User button {
+    padding: 0;
+    margin: 0;
+    padding: 5px;
+    margin-top: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.Create-User button:hover{
+    background-color: white;
+    box-shadow: 0 0 10px  rgb(255, 255, 255);
+    transition-duration: 0.3s;
+}
